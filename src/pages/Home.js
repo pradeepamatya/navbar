@@ -29,33 +29,33 @@ const Home = () => {
 
   return (
     <div>
-      <div className="movie_carousel">
+      {/* <div className="movie_carousel">
         <ImageCarousel movies={playingNow} />
-      </div>
+      </div> */}
 
       <div className="container-fluid">
 
       <div className="mt-2 text-light card bg-info p-2">
         <h3>Now Playing</h3>
       </div>
-      <div className="row">
+      {/* <div className="row">
         {
           playingNow.map(movie => {
             return <div className="col-md-2"><MovieCard movie={movie} /></div>
           })
         }
-      </div>
+      </div> */}
 
 
       <div className="mt-4 text-light card bg-info p-2">
         <h3>Trending Now</h3>
       </div>
-      <div className="row">
+      {/* <div className="row">
         {
           trendings.map(movie => {
             return <div className="col-md-2"><MovieCard movie={movie} /></div>
           })
-        }
+        } */}
       </div>
     </div>
       </div>

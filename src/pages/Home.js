@@ -1,8 +1,8 @@
 import React from 'react'
 import axios from 'axios'
 import { BASE_URL, API_KEY } from '../config'
-import MovieCard from '../components/MovieCard';
-import ImageCarousel from '../components/Carousel';
+// import MovieCard from '../components/MovieCard';
+// import ImageCarousel from '../components/Carousel';
 
 const Home = () => {
 
